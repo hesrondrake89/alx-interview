@@ -1,11 +1,10 @@
 #!/usr/bin/python3
+'''A package designed to handle Pascal's triangle operations.
 '''
-A package designed to handle Pascal's triangle operations.
-'''
-
 
 def pascal_triangle(n):
-    '''Generates a nested list of integers that represents Pascal's triangle for a given integer.
+    '''Generates a nested list of integers that represents 
+    Pascal's triangle for a given integer.
     '''
     triangle = []
     if type(n) is not int or n <= 0:

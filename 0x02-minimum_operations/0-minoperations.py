@@ -4,6 +4,7 @@ This script calculates the minimum number of operations required to obtain
 exactly n occurrences of the character 'H' in a file.
 """
 
+
 def minOperations(n):
     operation_count = 0
     number = 2

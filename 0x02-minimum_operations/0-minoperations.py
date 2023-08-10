@@ -18,4 +18,4 @@ def minOperations(n):
         else:
             divisor += 1
             
-    return operation_coun
+    return operation_count

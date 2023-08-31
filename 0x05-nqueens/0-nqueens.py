@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-Resolution for the N-Queens problem
+Solution to the nqueens problem
 """
 import sys
 
 
 def backtrack(r, n, cols, pos, neg, board):
     """
-    backtracking function to discover a solution
+    backtrack function to find solution
     """
     if r == n:
         res = []
@@ -37,7 +37,7 @@ def backtrack(r, n, cols, pos, neg, board):
 
 def nqueens(n):
     """
-    Resolution for the N-Queens problem
+    Solution to nqueens problem
     Args:
         n (int): number of queens. Must be >= 4
     Return:

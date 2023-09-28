@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Define island_perimeter function that finds the perimeter
-of an island in a body of water
+of an island in a water body
 """
 
 bound_4 = set()
@@ -11,7 +11,7 @@ bound_1 = set()
 
 
 def boundary(grid, i, j):
-    """Find cells with either 4, 3, 2 or 1 exposed boundary and add them to
+    """Find cells with either 4, 3, 2 or 1 exposed boundary & add them to
        appropriate set
        Args:
            grid (list): 2d list

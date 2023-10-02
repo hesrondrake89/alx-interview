@@ -1,1 +1,1 @@
-# PRIME GAME
+# Prime Game
